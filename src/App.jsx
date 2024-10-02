@@ -1,19 +1,21 @@
 import Footer from "./Components/Footer"
 import Card from "./Components/Card"
-import HeroSection from "./Components/HeroSection"
-// import NavBar from "./Components/NavBar"
-import AboutScetion from "./Components/AboutScetion"
+import About from "./Components/About"
+
+import HeroSection from "./Components/HeroSection";
+
 function App() {
- 
   return (
     <>
-    {/* <NavBar /> */}
-    <HeroSection />
-    <Card />
-    <AboutScetion />
-      <Footer />
+      
+      <HeroSection />
+      <Card />
+      <About />
+      <Footer /> 
+      
+     
     </>
-  )
+  );
 }
 
-export default App
+export default App;

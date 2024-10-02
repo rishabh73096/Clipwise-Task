@@ -4,7 +4,7 @@ import { AiFillCaretDown } from "react-icons/ai";
 
 const Card = () => {
   return (
-    <div className="mt-20 p-1">
+    <div className="mt-[150px] p-1">
       <h1 className="text-4xl font-bold text-center mb-6 text-gray-600">All Products</h1>
       <div className="flex flex-wrap justify-start items-center gap-[90px] mb-6 mx-11">
         <span className=" text-[14px] font-semibold text-gray-300 flex items-center text-gray-600">

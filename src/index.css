@@ -6,6 +6,30 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+section{
+    height: 66vh;
+    width: 100vw;
+    /* padding: 5vh 5vw 5vh 5vw; */
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.section{
+    height: 66vh;
+    width: 100vw;
+    /* padding: 5vh 5vw 5vh 5vw; */
+    color: white;
+}
+
+.terrabg{
+    background-color: #26a6fc;
+}
+
 .Footer-bg{
     background-color: #0A294DCC;
     width: 1231px;
@@ -19,41 +43,29 @@
 }
 body{
     overflow-x: hidden;
-  
+  /* background-color: #26a6fc; */
 }
-
-body {
-    background-color: #fff; /* Solid background color */
-    background-image: url('/background.svg'); /* SVG background */
-    background-size: contain; /* Adjust to 'contain' to fit SVG within */
-    background-repeat: no-repeat; /* Prevent repeating the SVG */
-    background-blend-mode: multiply;
-    margin: 0; /* Remove default margin */
-    height: 200vh; /* Set height to full viewport height */
-    width: 100vw; /* Set width to full viewport width */
-    /* overflow: hidden; Prevent scrolling if needed */
-}
-
 .polygon{
 width: 10px;
 height: 10px;
 border-radius: 1px;
 rotate: 180;
 }
-/* .navbar{
+.navbar{
     background-color: #26a6fc;
 
-} */
-/* .navbar-2{
-    background-color: #26a6fc;
-    height: 500px;
-} */
+} 
+.navbar-2 {
+    background-color: #26a6fc; 
+     
+}
+
 .new-lot{
     background-color:  #8A93E5;
     position: relative;
     top:-115px;
-   left:98px;
-   border-radius:0px 10px 10px 0;
+    left:98px;
+    border-radius:0px 10px 10px 0;
 }
 .bg-00{
     background-color: #FF2B77;
@@ -64,3 +76,30 @@ rotate: 180;
     background-color: #8A93E5;
    
 }
+
+.outer-gola{
+    background-color:  hsla(0, 0%, 100%, 1);
+
+}
+.inner-gola{
+    box-shadow: 0px 4px 50px 0px hsla(202, 15%, 54%, 0.25);
+
+}
+.text1-color{
+    color: hsla(205, 38%, 31%, 1);
+    
+}
+.text2-color{
+    color: hsla(11, 75%, 57%, 1);
+    margin-top:5px;
+}
+
+/* .op-20 {
+    opacity: 0.2; /* Set opacity to 20% 
+  
+   */
+  
+  .op-100 {
+    opacity: 1; /* Set opacity to 100% */
+  }
+  
